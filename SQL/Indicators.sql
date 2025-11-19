@@ -112,3 +112,11 @@ CASE
 END AS YOY_GDP_PER_CAPITA_GROWTH_PCT
 FROM ese_indicators
 ORDER BY YEAR, COUNTRY;
+
+--query to determine population per year for each country
+SELECT
+  YEAR,
+  COUNTRY,
+  POPULATION
+FROM ese_indicators
+ORDER BY YEAR, COUNTRY;
